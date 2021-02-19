@@ -6,7 +6,13 @@ h1 {
     color: grey;
 }
 
+label {
+    width: 100px;
+    display: inline-block;
+}
+
 div.maindiv {
+    display: table;
     background-color: white;
     color: black;
     width: 300px;
@@ -16,5 +22,5 @@ div.maindiv {
 }
 
 mark {
-    background-color: #FFF8DC;
+    background-color: yellow;
 }
